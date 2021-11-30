@@ -24,81 +24,88 @@
                     <div class="columns">
                             <div class="twelve columns admin-card">
                                 <div class="card">
-                                    <h6><strong>Files</strong></h6>
+                                    <h6><strong>Single board micro computers</strong></h6>
                                              <div class="responsive lg-three xs-twelve sm-six md-four">
                                             <div class="gallery">
-                                                <a target="_blank" href="img_fjords.jpg">
-                                                <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+                                                <a target="_blank" href="https://www.raspberrypi.org">
+                                                <img src="/img/pi_zero.jpeg" alt="Raspberry Pi Zero" width="300" height="200">
                                                 </a>
-                                                <div class="desc">Add a description of the image here</div>
+                                                <div class="desc">Raspberry Pi Zero</div>
                                             </div>
                                             </div>
-
-
 
                                             <div class="responsive lg-three xs-twelve sm-six md-four">
                                             <div class="gallery">
-                                                <a target="_blank" href="img_forest.jpg">
-                                                <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+                                                <a target="_blank" href="https://www.raspberrypi.org">
+                                                <img src="/img/pi_1_a.jpeg" alt="Raspberry Pi 1 A" width="600" height="400">
                                                 </a>
-                                                <div class="desc">Add a description of the image here</div>
+                                                <div class="desc">Raspberry Pi 1 A</div>
                                             </div>
                                             </div>
 
+                                            <div class="responsive lg-three sm-six xs-twelve md-four">
+                                            <div class="gallery">
+                                                <a target="_blank" href="https://www.arduino.cc">
+                                                <img src="/img/arduino_nano_v3.jpeg" alt="Arduino Nano V3" width="300" height="200">
+                                                </a>
+                                                <div class="desc">Arduino Nano V3</div>
+                                            </div>
+                                            </div>
+
+                                            <div class="responsive lg-three sm-six xs-twelve md-four">
+                                            <div class="gallery">
+                                                <a target="_blank" href="https://www.arduino.cc">
+                                                <img src="/img/arduino_leonardo.jpeg" alt="Arduino Leonardo" width="600" height="400">
+                                                </a>
+                                                <div class="desc">Arduino Leonardo</div>
+                                            </div>
+                                            </div>
 
                                         <div class="responsive lg-three xs-twelve sm-six md-four ">
                                         <div class="gallery">
-                                            <a target="_blank" href="img_lights.jpg">
-                                            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+                                            <a target="_blank" href="https://www.raspberrypi.org">
+                                            <img src="/img/pi_4_b.jpeg" alt="Raspberry Pi 4 B" width="600" height="400">
                                             </a>
-                                            <div class="desc">Add a description of the image here</div>
+                                            <div class="desc">Raspberry Pi 4 B</div>
                                         </div>
                                         </div>
 
                                         <div class="responsive lg-three sm-six xs-twelve md-four">
                                         <div class="gallery">
-                                            <a target="_blank" href="img_mountains.jpg">
-                                            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+                                            <a target="_blank" href="https://www.arduino.cc">
+                                            <img src="/img/arduino_r3.jpeg" alt="Arduino R3" width="600" height="400">
                                             </a>
-                                            <div class="desc">Add a description of the image here</div>
-                                        </div>
-                                        </div>
-                                        <div class="responsive lg-three sm-six xs-twelve md-four">
-                                        <div class="gallery">
-                                            <a target="_blank" href="img_fjords.jpg">
-                                            <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
-                                            </a>
-                                            <div class="desc">Add a description of the image here</div>
-                                        </div>
-                                        </div>
-
-
-                                        <div class="responsive lg-three sm-six xs-twelve md-four">
-                                        <div class="gallery">
-                                            <a target="_blank" href="img_forest.jpg">
-                                            <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-                                            </a>
-                                            <div class="desc">Add a description of the image here</div>
+                                            <div class="desc">Arduino R3</div>
                                         </div>
                                         </div>
 
                                         <div class="responsive lg-three sm-six xs-twelve md-four">
                                         <div class="gallery">
-                                            <a target="_blank" href="img_lights.jpg">
-                                            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+                                            <a target="_blank" href="https://www.arduino.cc">
+                                            <img src="/img/arduino_tre.jpeg" alt="Arduino Tre" width="600" height="400">
                                             </a>
-                                            <div class="desc">Add a description of the image here</div>
+                                            <div class="desc">Arduino Tre</div>
                                         </div>
                                         </div>
 
                                         <div class="responsive lg-three sm-six xs-twelve md-four">
                                         <div class="gallery">
-                                            <a target="_blank" href="img_mountains.jpg">
-                                            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+                                            <a target="_blank" href="https://www.arduino.cc">
+                                            <img src="/img/arduino_uno_rev2.jpeg" alt="Arduino Uno Rev2" width="600" height="400">
                                             </a>
-                                            <div class="desc">Add a description of the image here</div>
+                                            <div class="desc">Arduino Uno Rev2</div>
                                         </div>
                                         </div>
+
+                                        <div class="responsive lg-three sm-six xs-twelve md-four">
+                                        <div class="gallery">
+                                            <a target="_blank" href="https://www.madmachine.io">
+                                            <img src="/img/swift_io.jpeg" alt="Mad Machine - Swift IO" width="600" height="400">
+                                            </a>
+                                            <div class="desc">Mad Machine - Swift IO</div>
+                                        </div>
+                                        </div>
+
                                         <div class="clearfix"></div>
                                     </div>
                             </div>
