@@ -17,6 +17,9 @@ let package = Package(
         .target(
             name: "App",
             dependencies: [
+                .product(name: "Fluent", package: "fluent"),
+                .product(name: "FluentPostgresDriver", package: "fluent-postgres-driver"),
+                .product(name: "Leaf", package: "leaf"),
                 .product(name: "Vapor", package: "vapor")
             ],
             swiftSettings: [
