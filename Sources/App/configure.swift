@@ -3,11 +3,15 @@ import FluentPostgresDriver
 import Leaf
 import Vapor
 
-// configures your application
+// Configures your application
 public func configure(_ app: Application) throws {
-    // uncomment to serve files from /Public folder
-    // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
 
-    // register routes
+    app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
+
+    // Leaf
+    app.views.use(.leaf)    // Don't cache pages
+    app.leaf.cache.isEnabled = false
+
+    // Register routes
     try routes(app)
 }

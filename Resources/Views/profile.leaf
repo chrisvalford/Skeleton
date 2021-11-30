@@ -1,0 +1,114 @@
+#extend("base"):
+#export("content"):
+        <!--CONTENT START-->
+        <div class="content-profile">
+            <div class="container">
+                <div class="md-eight md-offset-by-two lg-eight lg-offset-by-two columns">
+                    <div class="row">
+                        <!-- <h6><strong>UPLOAD A FILE HERE!</strong></h6> -->
+                        <form>
+                            <div class="box">
+                                <div class="md-four md-offset-by-four lg-two lg-offset-by-four">
+                                    <input type="file" class="input-file" id="fileUpload"/>
+                                    <label for="fileUpload" id="fileButton"><strong>Choose your file...<strong></label>
+                                    <button class="button white-background">Upload</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr class="u-full-width">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="columns">
+                            <div class="twelve columns admin-card">
+                                <div class="card">
+                                    <h6><strong>Files</strong></h6>
+                                             <div class="responsive lg-three xs-twelve sm-six md-four">
+                                            <div class="gallery">
+                                                <a target="_blank" href="img_fjords.jpg">
+                                                <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+                                                </a>
+                                                <div class="desc">Add a description of the image here</div>
+                                            </div>
+                                            </div>
+
+
+
+                                            <div class="responsive lg-three xs-twelve sm-six md-four">
+                                            <div class="gallery">
+                                                <a target="_blank" href="img_forest.jpg">
+                                                <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+                                                </a>
+                                                <div class="desc">Add a description of the image here</div>
+                                            </div>
+                                            </div>
+
+
+                                        <div class="responsive lg-three xs-twelve sm-six md-four ">
+                                        <div class="gallery">
+                                            <a target="_blank" href="img_lights.jpg">
+                                            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+                                            </a>
+                                            <div class="desc">Add a description of the image here</div>
+                                        </div>
+                                        </div>
+
+                                        <div class="responsive lg-three sm-six xs-twelve md-four">
+                                        <div class="gallery">
+                                            <a target="_blank" href="img_mountains.jpg">
+                                            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+                                            </a>
+                                            <div class="desc">Add a description of the image here</div>
+                                        </div>
+                                        </div>
+                                        <div class="responsive lg-three sm-six xs-twelve md-four">
+                                        <div class="gallery">
+                                            <a target="_blank" href="img_fjords.jpg">
+                                            <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+                                            </a>
+                                            <div class="desc">Add a description of the image here</div>
+                                        </div>
+                                        </div>
+
+
+                                        <div class="responsive lg-three sm-six xs-twelve md-four">
+                                        <div class="gallery">
+                                            <a target="_blank" href="img_forest.jpg">
+                                            <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+                                            </a>
+                                            <div class="desc">Add a description of the image here</div>
+                                        </div>
+                                        </div>
+
+                                        <div class="responsive lg-three sm-six xs-twelve md-four">
+                                        <div class="gallery">
+                                            <a target="_blank" href="img_lights.jpg">
+                                            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+                                            </a>
+                                            <div class="desc">Add a description of the image here</div>
+                                        </div>
+                                        </div>
+
+                                        <div class="responsive lg-three sm-six xs-twelve md-four">
+                                        <div class="gallery">
+                                            <a target="_blank" href="img_mountains.jpg">
+                                            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+                                            </a>
+                                            <div class="desc">Add a description of the image here</div>
+                                        </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                            </div>
+
+                   </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!--CONTENT ENDS HERE-->
+#endexport
+#endextend

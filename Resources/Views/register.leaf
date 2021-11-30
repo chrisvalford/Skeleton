@@ -1,0 +1,63 @@
+#extend("base"):
+#export("content"):
+        <!--CONTENT START-->
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="xs-twelve sm-twelve md-eight md-offset-by-two lg-eight lg-offset-by-two columns">
+                        <h4 class=""><strong>Welcome to Blank</strong></h4>
+                        <h6>Have an account?  Login below!</h6>
+                    </div>
+                    <hr class="u-full-width">
+                </div>
+            </div>
+            <div class="container">
+                <div class="sm-twelve md-ten md-offset-by-two lg-eight lg-offset-by-two columns">
+                    <div class="row">
+                        <form>
+                            <div class="row">
+                                <div class="eight sm-offset-by-two md-six md-offset-by-two lg-offset-by-three columns">
+                                    <label for="usernameInput">Username</label>
+                                    <input class="u-full-width" type="text" placeholder="username">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="eight sm-offset-by-two md-six md-offset-by-two lg-offset-by-three columns">
+                                    <label for="emailInpupt">Email</label>
+                                    <input class="u-full-width" type="email" placeholder="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="eight sm-offset-by-two md-six md-offset-by-two lg-offset-by-three columns">
+                                    <label for="passwordInput">Password</label>
+                                    <input class="u-full-width" type="password" placeholder="password">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="eight sm-offset-by-two md-six md-offset-by-two lg-offset-by-three columns">
+                                    <label for="confirmPasswordInput">Confirm Password</label>
+                                    <input class="u-full-width" type="password" placeholder="confirm password">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="twelve sm-offset-by-two md-offset-by-two lg-offset-by-three columns">
+                                    <br>
+                                    <button class="button-primary">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr class="u-full-width">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="xs-twelve sm-twelve md-eight md-offset-by-two lg-eight lg-offset-by-two columns">
+                        <h6>If you don't have an account, feel free to create on <a href="#"><strong>here!</strong></a></h6>
+                    </div>
+                    <hr class="u-full-width">
+                </div>
+            </div>
+        </div> <!--CONTENT ENDS HERE-->
+#endexport
+#endextend

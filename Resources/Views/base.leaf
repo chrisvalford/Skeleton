@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>#(pageData.title)</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="/css/skeleton.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/menu.css">
+
+        <!-- Only required for profile page -->
+        <link rel="stylesheet" href="css/profile.css">
+
+        <!--<link rel="icon" type="image/png" href="/imh/favicon.png">-->
+        <style>
+            .demo-col {
+                padding-top: 1em;
+                padding-bottom: 1em;
+                background-color: #0074D9;
+                color: #fff;
+                text-align: center;
+            }
+
+            .demo-row {
+                margin-bottom: 1rem;
+            }
+
+            .nested {
+                background-color: #001f3f;
+            }
+        </style>
+    <script src="/js/side_menu.js"></script>
+    </head>
+<body>
+    <!-- HEADER -->
+    #extend("bits/header")
+
+    <!-- CONTENT -->
+    #import("content")</body>
+
+    <!-- FOOTER -->
+    #extend("bits/footer")
+
+    </body>
+</html>

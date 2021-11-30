@@ -1,0 +1,20 @@
+<!--STATIC FOOTER START-->
+    <div class='footer'>
+        <div class='container footer-container'>
+                <div class='sm-twelve u-pull-right footer-text'>
+                    <p>&copy; 2017 - mlnorman </p>
+                </div>
+        </div>
+    </div>
+<!--STATIC FOOTER END-->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        var myInput = document.getElementById('fileUpload');
+        myInput.addEventListener('change', function() {
+            var fullpath = document.getElementById('fileUpload').value;
+            var filename = fullpath.replace(/.*[\/\\]/, '');
+            document.getElementById('fileButton').innerText = filename;
+        });
+    });
+</script>
