@@ -1,0 +1,56 @@
+#extend("base"):
+#export("content"):
+<!--CONTENT START-->
+<div class="content-profile">
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <h1>Get in contact</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <p>Use this form and we will get back to you as soon as we can</p>
+            </div>
+        </div>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="six columns">
+                        <label for="exampleEmailInput">Your name</label>
+                        <input class="u-full-width" placeholder="Optional name">
+                    </div>
+                    <div class="six columns">
+                        <label for="exampleRecipientInput">Reason for contacting</label>
+                        <select class="u-full-width">
+                            <option value="Option 1">How to</option>
+                            <option value="Option 2">Code error</option>
+                            <option value="Option 3">Get involved</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="six columns">
+                        <label for="exampleEmailInput">Your email</label>
+                        <input class="u-full-width has-error" type="email" placeholder="test@mailbox.com" value="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <label for="exampleMessage">Message</label>
+                        <textarea class="u-full-width" placeholder="Hi folks &hellip;"></textarea>
+                        <label>
+                            <input type="checkbox">
+                                <span class="label-body">Send a copy to yourself</span>
+                        </label>
+                        <input class="button-primary" type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+#endexport
+#endextend
+
