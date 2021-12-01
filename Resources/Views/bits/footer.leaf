@@ -1,9 +1,9 @@
 <!--STATIC FOOTER START-->
     <div class='footer'>
         <div class='container footer-container'>
-                <div class='sm-twelve u-pull-right footer-text'>
-                    <p>&copy; 2017 - mlnorman </p>
-                </div>
+            <div class='sm-twelve u-pull-right footer-text'>
+                <p>&copy; 2021 <a href="https://anapp4that.com" target="_blank">anapp4that.com</a></p>
+            </div>
         </div>
     </div>
 <!--STATIC FOOTER END-->

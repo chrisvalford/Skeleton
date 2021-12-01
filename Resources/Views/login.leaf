@@ -1,12 +1,13 @@
-#extend("/bits/base"):
+#extend("base"):
 #export("content"):
+<div class="content-profile">
         <!--CONTENT START-->
         <div class="content">
             <div class="container">
                 <div class="row">
                     <div class="xs-twelve sm-twelve md-eight md-offset-by-two lg-eight lg-offset-by-two columns">
-                        <h4 class=""><strong>Welcome to Blank</strong></h4>
-                        <h6>Have an account?  Login below!</h6>
+                        <h4 class=""><strong>Welcome to Skeleton</strong></h4>
+                        <h6>Already have an account? Login below</h6>
                     </div>
                     <hr class="u-full-width">
                 </div>
@@ -41,11 +42,12 @@
             <div class="container">
                 <div class="row">
                     <div class="xs-twelve sm-twelve md-eight md-offset-by-two lg-eight lg-offset-by-two columns">
-                        <h6>If you don't have an account, feel free to create on <a href="#"><strong>here!</strong></a></h6>
+                        <h6>If you don't have an account, feel free to create on <a href="/register"><strong>here!</strong></a></h6>
                     </div>
                     <hr class="u-full-width">
                 </div>
             </div>
         </div> <!--CONTENT ENDS HERE-->
+    </div>
 #endexport
 #endextend
